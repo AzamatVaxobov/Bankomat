@@ -6,7 +6,7 @@ namespace Bankomat
     {
         static void Main(string[] args)
         {
-            decimal balance = 1000.00m; // Initial balance
+            decimal balance = 1000.00m; 
             int option;
 
             do
@@ -17,7 +17,7 @@ namespace Bankomat
                 Console.WriteLine("2. Deposit Money");
                 Console.WriteLine("3. Withdraw Money");
                 Console.WriteLine("4. Exit");
-                Console.Write("Please select an option: "); // This is where the "front" interaction starts
+                Console.Write("Please select an option: ");
                 option = int.Parse(Console.ReadLine());
 
                 switch (option)
